@@ -3,8 +3,8 @@ class Keyfit < Formula
 
   desc "Per-project, verified environments for AI coding tools"
   homepage "https://keyfit.dev"
-  url "https://files.pythonhosted.org/packages/12/74/9a6268980a875271bc0ab42fd1570251440ad947ad2c154d406130b0c53e/keyfit-0.1.0.tar.gz"
-  sha256 "4a327017356e27f8bac5fb5009f8ac18b9972cf3c6ed7b1c17b43775d6b9de67"
+  url "https://files.pythonhosted.org/packages/da/75/eff809efc4ba8618dfcc965b4e2e86c117c839b2ca7420a58f943322a7c8/keyfit-0.1.1.tar.gz"
+  sha256 "70ed68ca95c70fa0bfc6466b87378c92a5c238f8b344d9ed5a5195abe533039d"
   license "MIT"
 
   depends_on :macos # keys live in the macOS Keychain; `keyfit setup` refuses elsewhere for now
